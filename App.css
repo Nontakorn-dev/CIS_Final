@@ -1,0 +1,102 @@
+.ecg-container {
+  height: 200px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.lead-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.lead-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.lead-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lead-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.lead-indicator.active {
+  background-color: #28a745;
+}
+
+.lead-indicator.inactive {
+  background-color: #dc3545;
+}
+
+.spectrogram-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.spectrogram-image {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.result-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.result-heading {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.confidence-bar {
+  height: 25px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.confidence-level {
+  height: 100%;
+  background-color: #007bff;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.history-date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.history-result {
+  font-weight: bold;
+  color: #007bff;
+}
